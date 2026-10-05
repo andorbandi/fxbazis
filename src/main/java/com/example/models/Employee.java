@@ -50,4 +50,11 @@ public class Employee {
         this.city = city;
         this.salary = salary;
     }
+
+    @Override
+    public String toString() {
+        return "\nEmployee [id=" + id + ", name=" + name + ", city=" + city + ", salary=" + salary + "]";
+    }
+
+    
 }

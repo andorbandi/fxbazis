@@ -45,6 +45,6 @@ public class EmployeeService {
             empList.add(employee);
         }
         con.close();
-        return null;
+        return empList;
     }
 }

@@ -1,0 +1,10 @@
+-- database: d:\iskola\ora\2026-10-05\fxbazis\database.db
+
+CREATE TABLE employees (
+    id integer not null primary key autoincrement,
+    name text,
+    city text,
+    salary integer
+);
+
+SELECT * FROM employees;
