@@ -8,3 +8,7 @@ values
 ('Michael Johnson', 'Chicago', 55000),
 ('Emily Davis', 'Houston', 52000),
 ('William Brown', 'Phoenix', 58000);
+
+update employees
+set salary = salary * 1.5
+where city = 'New York';
